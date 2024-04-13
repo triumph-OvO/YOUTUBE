@@ -1,0 +1,104 @@
+body {
+    font-family: Roboto, Arial;
+    margin: 70px 0px 1000px 250px;
+
+}
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+a {
+    color: rgb(49, 111, 233);
+    text-decoration: none;
+}
+
+
+
+
+.pic-info-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 80px;
+}
+.pic-info-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-div {
+    width: 165px;
+}
+.image {
+    width: 100%;
+}
+.info-div {
+    margin-left: 20px;
+    flex: 1;
+}
+.name {
+    font-weight: 700;
+    font-size: 36px;
+}
+.about, .username {
+    color: rgb(91, 91, 91);
+    font-size: 15px;
+}
+.username {
+    margin-top: 15px;
+}
+.about {
+    margin-top: 15px;
+}
+.link {
+    font-size: 15px;
+    margin-top: 17px;
+    margin-bottom: 15px;
+}
+.more-links {
+    font-weight: 500;
+}
+.subscribed-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px;
+    width: 159px;
+    border: none;
+    border-radius: 50px;
+    background-color: rgb(242, 242, 242);
+    padding-left: 30px;
+}
+.notifications {
+    width: 25px;
+}
+.subscribed-text {
+    font-weight: 500;
+    font-size: 15px;
+    display: inline;
+    vertical-align: top;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.drop-down {
+    width: 16px;
+}
+.buttons {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.head-button, .head-button2 {
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+    color: rgb(85, 85, 85);
+}
+.head-button {
+    padding: 14px 3px 14px 3px;
+    margin-right: 20px;
+}
+.search2 {
+    width: 24px;
+    color: rgb(85, 85, 85);
+}

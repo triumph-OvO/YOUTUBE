@@ -1,0 +1,46 @@
+.subscribed-button,
+.voice-svg-button,
+.search-svg-button,
+.right-button,
+.hamburger-menu-button {
+    transition: background-color 0.2s;
+}
+.search2,
+.head-button,
+.subscribed-button,
+.link,
+.dropdown-btn,
+.drop-up-text,
+.one-div,
+.main-scroller,
+.drop-up-text,
+.main-scroller2 {
+    cursor: pointer;
+}
+.subscribed-button:hover  {
+    background-color: rgb(231, 231, 231);
+}
+.voice-svg-button:hover {
+    background-color: rgb(198, 198, 198);
+}
+.search-svg-button:hover {
+    background-color: rgb(231, 231, 231);
+}
+.right-button:hover,
+.hamburger-menu-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+.hamburger-menu-button {
+    display: flex;
+    border: none;
+    padding: 8px 9px 8px 9px;
+    border-radius: 30px;
+    background-color: white;
+}
+.head-button:hover {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgb(156, 156, 156);
+}
+.one-div:hover {
+    background-color: rgb(235, 235, 235);
+}

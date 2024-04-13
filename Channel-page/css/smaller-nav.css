@@ -1,0 +1,29 @@
+.smaller-nav {
+    z-index: 1000000;
+    position: fixed;
+    left: 11px;
+    top: 55px;
+    bottom: 0;
+    background-color: white;
+}
+.surrounding-div {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 0px 18px 0px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+.icon {
+    width: 23px;
+}
+.text {
+    margin-top: 7px;
+    font-size: 11px;
+}
+.surrounding-div:hover {
+    background-color: rgb(244, 244, 244);
+}

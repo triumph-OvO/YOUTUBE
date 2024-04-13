@@ -1,0 +1,123 @@
+.scroller {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 6px;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    scroll-snap-type: inline mandatory;
+}
+.mini-head, .mini-head2 {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.main-scroller {
+    width: 350px;
+    scroll-snap-align: start;
+}
+.img-img {
+    width: 100%;
+    height: 196px;
+    object-fit: cover;
+    border-radius: 13px;
+}
+.text-scroller {
+    width: 300px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    line-height: 20px;
+}
+.info-scroller {
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+.hr3 {
+    width: 100%;
+    border: 0.3px solid rgb(209, 209, 209);
+    margin-top: 10px;
+}
+.mini-head2 {
+    display: flex;
+}
+.second {
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+}
+.second img {
+    width: 18px;
+}
+.second div {
+    font-size: 14px;
+    font-weight: 500;
+    display: inline;
+    margin-left: 10px;
+}
+
+
+
+
+.lolol {
+    width: x;
+    gap: 3px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    scroll-snap-type: inline mandatory;
+}
+.main-scroller2 {
+    width: 212px;
+    scroll-snap-align: start;
+}
+.img-img2 {
+    width: 100%;
+    height: 119px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.text-scroller2 {
+    margin-top: 4px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 500;
+    width: 190px;
+}
+.author {
+    margin-top: 10px;
+    margin-bottom: 4px;
+    font-size: 12px;
+    color: rgb(102, 102, 102);
+}
+.subtitles {
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    background-color: rgb(238, 238, 238);
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+    border-radius: 3px;
+}
+
+.career {
+    width: 650px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 3px;
+    scroll-snap-type: inline mandatory;
+}
+.questions {
+    padding-top: 30px;
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: auto;
+    gap: 3px;
+    scroll-snap-type: inline mandatory;
+}

@@ -1,0 +1,85 @@
+@media (max-width: 650px) {
+    .middle-section {
+        justify-content: end;
+        margin-right: 0px;
+    }
+    .search {
+        display: none;
+    }
+    .search-svg-button {
+        border: none;
+        background-color: white;
+    }
+    .voice-svg-button {
+        margin-left: 0;
+        background-color: white;
+    }
+}
+@media (max-width: 1332px) {
+    .pic-info-container {
+        padding-left: 10%;
+    }
+}
+@media (max-width: 1310px) {
+    .nav-bar {
+        display: none;
+    }
+    .pic-info-container {
+        padding-left: 10%;
+    }
+    body {
+        margin-left: 0px;
+    }
+}
+@media (min-width: 1310px) {
+    .smaller-nav {
+        display: none;
+    }
+}
+@media (max-width: 1170px) {
+    .pic-info-container {
+        padding-left: 15%;
+    }
+}
+@media (max-width: 950px) {
+    .pic-info-container {
+        padding-left: 15%;
+    }
+}
+@media (max-width: 800px) {
+    .smaller-nav{
+        display: none;
+    }
+    .pic-info-container {
+        padding-left: 5%;
+    }
+}
+@media (max-width: 700px) {
+    .image-div {
+        display: none;
+    }
+}
+@media (max-width: 670px) {
+    .pic-info-container {
+        padding-left: 13%;
+    }
+}
+@media (max-width: 520px) {
+    .pic-info-container {
+        padding-left: 5%;
+    }
+    .name {
+        font-size: 25px;
+    }
+    .about, .username, .link {
+        font-size: 14px;
+    }
+    .scroller {
+        width: 350px;
+    }
+    .questions, .career, .lolol {
+        width: 430px;
+    }
+}
+
+    

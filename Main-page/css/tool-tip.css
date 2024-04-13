@@ -1,0 +1,33 @@
+.search-button, .voice-button, .meww {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.tool-tip {
+    font-size: 12px;
+    position: absolute;
+    bottom: -45px;
+    padding: 9px;
+    color: white;
+    background-color: rgb(100, 100, 100);
+    border-radius: 2px;
+    opacity: 0;
+    white-space: nowrap;
+    transition: opacity 0.3s;
+}
+.search-button:hover .tool-tip,
+.voice-button:hover .tool-tip,
+.meww:hover .tool-tip  {
+    opacity: 0.9;
+}
+.notis {
+    position: absolute;
+    bottom: 8px;
+    right: -7px;
+    border: 2px solid white;
+    color: white;
+    font-size: 10px;
+    background-color: rgb(201, 56, 56);
+    padding: 2px 5px 2px 5px;
+    border-radius: 10px;
+}

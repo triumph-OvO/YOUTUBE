@@ -1,0 +1,81 @@
+p {
+    margin: 0 0 0 0;
+}
+body {
+    font-family: Roboto, Arial;
+    margin: 80px 20px 2000px 100px;
+    background-color: rgb(244, 244, 244);
+}
+.biggest {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 15px;
+}
+.main-div {
+    width: 100%;
+    margin-bottom: 40px;
+}
+.image-div {
+    position: relative;
+}
+.timer {
+    color: white;
+    background-color: black;
+    font-weight: 500;
+    font-size: 12px;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    padding: 3px 3px 3px 3px;
+}
+.main-image {
+    width: 100%;
+}
+.info-pfp-div {
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    margin-top: 10px;
+}
+.pfp-div {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+    height: 35px;
+    border-radius: 30px;
+}
+.pfp {
+    width: 100%;
+    border-radius: 20px;
+}
+.info-div {
+    margin-left: 10px;
+}
+.video-title {
+    font-weight: 500;
+    font-size: 15px;
+}
+.author-name, .views {
+    font-size: 12px;
+    color: rgb(98, 98, 98);
+}
+.author-name {
+    margin: 8px 0 4px 0;
+}
+@media (min-width: 1000px) {
+    .biggest {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media (max-width: 800px) {
+    .biggest {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media (max-width: 480px) {
+    .biggest {
+        grid-template-columns: 1fr;
+    }
+    .main-div {
+        margin-bottom: 20px;
+    }
+}

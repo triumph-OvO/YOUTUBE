@@ -1,0 +1,68 @@
+.tool-tip {
+    position: absolute;
+    bottom: -60px;
+    color: white;
+    background-color: rgb(96, 96, 96);
+    padding: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
+.search-svg-button:hover .tool-tip,
+.voice-svg-button:hover .tool-tip,
+.right-button:hover .tool-tip {
+    opacity: 1;
+}
+
+.notis {
+    position: absolute;
+    top: 0px;
+    right: -6px;
+    color: white;
+    background-color: rgb(195, 42, 42);
+    padding: 1px 4px 1px 4px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 2px solid white;
+}
+.nigeria {
+    color: rgb(61, 61, 61);
+    font-size: 10px;
+    position: absolute;
+    top: -8px;
+    right: -18px;
+}
+
+
+.one-div {
+    position: relative;
+}
+.nav-tip {
+    color: white;
+    border: 1px solid gray;
+    background-color: rgb(82, 82, 82);
+    padding: 2px 6px 2px 6px;
+    position: absolute;
+    bottom: -10px;
+    left: 120px;
+    font-size: 12px;
+    z-index: 100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    white-space: nowrap;
+}
+.nav-tip2 {
+    left: 60px;
+}
+.nav-tipp {
+    left: 0px;
+}
+.one-div:hover .nav-tip {
+    opacity: 1;
+}

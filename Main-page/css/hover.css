@@ -1,0 +1,39 @@
+.hover {
+    width: 210px;
+    padding: 8px 0 8px 10px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    bottom: -80px;
+    left: 10px;
+    box-shadow: 1px 0px 2px 2px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    cursor: pointer;
+    pointer-events: none;
+    z-index: 100;
+}
+.hover-pfp-div {
+    width: 50px;
+}
+.hover-pfp {
+    width: 100%;
+    border-radius: 30px;
+}
+.hover-info {
+    flex: 1;
+    margin-left: 8px;
+}
+.bold {
+    font-size: 17px;
+    font-weight: bold;
+}
+.gray {
+    font-size: 14px;
+    color: rgb(98, 98, 98);
+}
+.pfp-div:hover .hover {
+    opacity: 1;
+}

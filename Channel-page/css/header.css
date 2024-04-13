@@ -1,0 +1,112 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 57px;
+    z-index: 1000000;
+}
+.left-section {
+    margin-left: 25px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-section * {
+    cursor: pointer;
+}
+.right-section * {
+    cursor: pointer;
+}
+.hamburger-menu {
+    width: 23px;
+}
+.youtube-logo {
+    width: 90px;
+}
+.middle-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+    max-width: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.search {
+    flex: 1;
+    height: 37px;
+    padding-left: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 1px solid rgb(204, 204, 204);
+    font-size: 16px;
+    width: 0;
+}
+.search::placeholder {
+    font-size: 16px;
+}
+.search-svg-button {
+    background-color: rgb(252, 252, 252);
+    width: 65px;
+    height: 41px;
+    border: 1px solid rgb(204, 204, 204);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -1px;
+}
+.search-svg {
+    width: 24px;
+}
+.voice-svg-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    margin-left: 20px;
+}
+.voice-svg-button,
+.search-svg-button,
+.right-button,
+.youtube-logo-div {
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voice-svg {
+    width: 25px;
+}
+.right-section {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.right-icons {
+    width: 23px;
+}
+.triumph {
+    width: 32px;
+    height: 35px;
+    object-fit: cover;
+    margin-left: 10px;
+}
+.right-button {
+    border: none;
+    border-radius: 50px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 9px;
+    padding-right: 9px;
+    background-color: white;
+}
